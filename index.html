@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional Frontend Quiz App by Akhtar Ali. Test your HTML, CSS, and JavaScript skills with interactive quizzes and gamified experience.">
+  <meta name="keywords" content="Quiz, HTML, CSS, JavaScript, Frontend Developer, Portfolio, Akhtar Ali, Gamified Quiz">
+  <title>Ultimate Frontend Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ultimate Frontend Quiz</h1>
+    <p>Choose a category and challenge yourself!</p>
+    <button id="theme-toggle">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <!-- Category Selection -->
+    <section id="category-selection">
+      <h2>Select Quiz Category</h2>
+      <div class="categories">
+        <button class="category-btn" data-category="html">HTML</button>
+        <button class="category-btn" data-category="css">CSS</button>
+        <button class="category-btn" data-category="js">JavaScript</button>
+      </div>
+    </section>
+
+    <!-- Quiz Container -->
+    <section id="quiz-container" class="hidden">
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="question-box">
+        <div id="question"></div>
+        <ul id="options"></ul>
+      </div>
+      <button id="next-btn" disabled>Next</button>
+    </section>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+  </main>
+
+  <footer>
+    <p>Created by Maavia Gulshan | <a href="https://github.com/Maavia971" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/maavia-gulshan-a27441399/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="confetti.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
