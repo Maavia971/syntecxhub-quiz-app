@@ -40,7 +40,7 @@ The app is fully responsive, lightweight, and designed to give a clean and engag
 
 ## 📂 Project Structure
 
-Syntecxhub@-quiz-app/ │ ├── index.html ├── style.css └── script.js    
+Syntecxhub@-quiz-app/ ├── index.html ├── style.css └── script.js  
 
 ---
 
@@ -50,16 +50,21 @@ Syntecxhub@-quiz-app/ │ ├── index.html ├── style.css └── scr
 
 ```bash
 git clone https://github.com/Maavia971/Syntecxhub-quiz-app.git
-
+```
 2. Navigate to the project folder:
-cd Syntecxhub@-quiz-app
+cd Syntecxhub-quiz-app
+
+
 
 3. Open index.html in your browser.
 
+---
+
 🌐 Live Demo
- GitHub Pages for a live demo:
-https://maavia971.github.io/syntecxhub-quiz-app/
+ [GitHub Pages for a live demo](https://maavia971.github.io/syntecxhub-quiz-app/)
+
+---
 
 👨‍💻 Author
 Maavia Gulshan – Frontend Developer
-Email:gulshanmaavia@gmail.com
+[Email Me](mailto:gulshanmaavia@gmail.com)
